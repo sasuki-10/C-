@@ -3,7 +3,7 @@ using namespace std;
 #include<fstream>
 int main()
 {
-	ofstream outf("ITEM");
+	ofstream outf("ITEM");  //outf is object
 	cout<<"ENTER ITEM NAME:";
 	char name[50];
 	cin>>name;
@@ -17,7 +17,7 @@ int main()
 	
 	outf.close();
 	
-	ifstream tri("ITEM");
+	ifstream tri("ITEM");// tri is object 
 	tri>>name;
 	tri>>cost;
 	
