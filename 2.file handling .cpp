@@ -27,8 +27,8 @@ int main()
     
     cout<<"contents of country:\n";
     
-    while(fin)
-    {
+      while(fin)
+       {
     	fin.getline(line,N);
     	cout<<line;
     	
