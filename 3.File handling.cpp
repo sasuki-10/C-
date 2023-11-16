@@ -13,16 +13,18 @@ int main()
   
   for(int i=1;i<=10;i++)
   {
-  	if(fin1.eof()!=0)
+  	
+	  if(fin1.eof()!=0)
   	    {
   	  	cout<<"Exit From Country";
   	  	exit(1);
 	    }
-	fin1.getline(line ,SIZE);
-	cout<<"Capital of"<<line;
 	
-	if(fin2.eof()!=0)
-    	{
+	  fin1.getline(line ,SIZE);
+	  cout<<"Capital of"<<line;
+	
+	   if(fin2.eof()!=0)
+    	      {
 		cout<<"Exit From capital";
 		exit(1);
 		}	
