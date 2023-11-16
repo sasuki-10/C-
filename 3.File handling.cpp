@@ -17,7 +17,7 @@ int main()
   	    {
   	  	cout<<"Exit From Country";
   	  	exit(1);
-		}
+	    }
 	fin1.getline(line ,SIZE);
 	cout<<"Capital of"<<line;
 	
