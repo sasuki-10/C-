@@ -23,8 +23,8 @@ int main()
 	  fin1.getline(line ,SIZE);
 	  cout<<"Capital of"<<line;
 	
-	   if(fin2.eof()!=0)
-    	      {
+	    if(fin2.eof()!=0)
+    	        {
 		cout<<"Exit From capital";
 		exit(1);
 		}	
@@ -32,5 +32,5 @@ int main()
 	fin2.getline(line,SIZE);
 	cout<<line<<"\n";
 	
-}
-}
+  }
+ }
