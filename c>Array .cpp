@@ -6,22 +6,22 @@ int main()
   int n,sum=0;
     
 	 cout<<"enter the number:";
-     cin>>n;
+         cin>>n;
          
-		 if(n<100)
+	 if(n<100)
           {
-          	for(i=0;i<=n;i++)
+          for(i=0;i<=n;i++)
             { 
             cout<<"a[%d]= "<<i;
             cin>>a[i];
             sum=sum+i;
             }
-        }
-      else
+         }
+         else
           {
           cout<<"out of array";
-           }
+          }
     
-   cout<<"sum is:"<<sum<<endl;
+     cout<<"sum is:"<<sum<<endl;
      return 0;
 }
