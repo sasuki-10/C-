@@ -6,14 +6,14 @@ int main()
   cout<<"enter the number:";
   cin>>n;
      
-           if(n<100)
+          if(n<100)
           {
             cin>>a[i];
           }
-      else
-          {
+           else
+           {
            cout<<"out of array";
            }
-    }
+    
      return 0;
 }
