@@ -11,6 +11,7 @@ void main()
 	cout<<"THE ADDRESS OF ptr1:"<<ptr2;
 	cout<<"\n\n";
 	cout<<"AFTER INCREMENTING THE ADDRESS VALUE:\n\n";
+         
 	ptr1+=2;
 	cout<<"THE ADDRESS OF a:"<<ptr1<<"\n";
 	ptr2+=2;
