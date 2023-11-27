@@ -2,7 +2,7 @@
 using namespace std;
 void main()
 {
-	int a,*ptr1,**ptr2;
+ int a,*ptr1,**ptr2;
 	clrscr();
 	ptr1=&a;
 	ptr2=&ptr1;
