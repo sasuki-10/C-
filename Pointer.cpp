@@ -14,6 +14,7 @@ void main()
          
 	ptr1+=2;
 	cout<<"THE ADDRESS OF a:"<<ptr1<<"\n";
+	
 	ptr2+=2;
 	cout<<"THE ADDRESS OF ptr1:"<<ptr2<<"\n";
 }
