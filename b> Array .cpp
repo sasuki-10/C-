@@ -10,10 +10,10 @@ int main()
           {
             cin>>a[i];
           }
-           else
-           {
+          else
+          {
            cout<<"out of array";
-           }
+          }
     
      return 0;
 }
