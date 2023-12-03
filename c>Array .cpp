@@ -16,7 +16,7 @@ int main()
             cin>>a[i];
             sum=sum+i;
             }
-         }
+          }
          else
           {
           cout<<"out of array";
