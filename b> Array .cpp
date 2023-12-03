@@ -14,6 +14,5 @@ int main()
           {
            cout<<"out of array";
           }
-    
-     return 0;
+    return 0;
 }
