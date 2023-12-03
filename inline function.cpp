@@ -15,9 +15,7 @@ int main()
 {
 	float a=12.345;
 	float b=9.82;
-	
 	cout<<mul(a,b)<<"\n";
 	cout<<div(a,b)<<"\n";
-	
 	return 0;
 }
