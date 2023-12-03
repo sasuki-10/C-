@@ -9,6 +9,5 @@ void main()
 	cout<<"\n\n";
 	*ptr=(*ptr)/2;
 	cout<<"The value of a is:"<<(*ptr);
-	cout<<"\n\n";
-	
+	cout<<"\n\n";	
 }
