@@ -28,7 +28,6 @@ void person:: display()
 int main()
 {
 	person p;
-	
 	p.getdata();
 	p.display();
 	
