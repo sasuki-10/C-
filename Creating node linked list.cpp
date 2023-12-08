@@ -5,14 +5,18 @@ struct node{
     node *next;
 };
 node *first, *temp, *ttemp;
-void create_first(int val){
+void create_first(int val)
+ {
     first = (node *)malloc(sizeof(node));
     first->data = val;
     first->next = NULL;
     }
-void display(){
+
+void display()
+{
     temp = first;
-    while(temp!=NULL){
+    while(temp!=NULL)
+    {
         cout << temp->data;
         temp = temp->next;
     }
